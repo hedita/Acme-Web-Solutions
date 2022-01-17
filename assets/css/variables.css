@@ -1,0 +1,22 @@
+:root {
+  --primary-font: "open-sans";
+  --thin-font: 300;
+  --normal-font: 400;
+  --bold-font: 600;
+
+  --second-light-section: #ffffff;
+  --first-light-background: #eaeaea;
+  --gray-backgrounds: #333333;
+  --black-text-color: #333;
+  --white-text-color: #fff;
+  --blue: #2690d4;
+  --button-border: border: 1px solid #666;
+
+  --spacing: 8px;
+  --xSmall: 0.5em;
+  --small: 0.9em;
+  --medium: 1em;
+  --large: 1.2em;
+  --xLarge: 1.5em;
+  --xxLarge: 2em;
+}
