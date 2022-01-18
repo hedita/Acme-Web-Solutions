@@ -1,0 +1,20 @@
+/* Desktop */
+@media (min-width: 901px) {
+  .column-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fourth-section {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* Tablets */
+@media (max-width: 900px) and (min-width: 600px) {
+  .column-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
