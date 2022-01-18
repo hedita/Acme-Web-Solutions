@@ -1,5 +1,10 @@
 /* Desktop */
 @media (min-width: 901px) {
+  .first-section-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .column-container {
     display: flex;
     justify-content: space-around;
@@ -9,11 +14,31 @@
     display: flex;
     justify-content: space-around;
   }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* Tablets */
 @media (max-width: 900px) and (min-width: 600px) {
+  .first-section-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .column-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fourth-section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-container {
     display: flex;
     justify-content: space-around;
   }
