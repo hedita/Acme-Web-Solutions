@@ -1,4 +1,28 @@
 .site-header {
   background: url("../img/header.jpg");
-  height: 300px;
+  height: 200px;
+}
+
+.title-header {
+  color: var(--white);
+  text-align: center;
+  padding-top: 32px;
+  font-weight: var(--bold-font);
+}
+
+.text-header {
+  color: var(--white);
+  text-align: center;
+  padding: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 8px 16px;
 }
