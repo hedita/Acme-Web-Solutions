@@ -1,7 +1,6 @@
 .site-header {
   background: url("../img/header.jpg");
   height: 200px;
-  filter: blur(2px);
 }
 
 .title-header {
