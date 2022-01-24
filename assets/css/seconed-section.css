@@ -3,14 +3,14 @@
 }
 
 .seconed-section-title {
-  padding-top: var(--large);
+  padding-top: calc(var(--spacing) * 4);
   background-color: var(--white);
   text-align: center;
 }
 
 .seconed-section-text {
-  padding-top: var(--large);
-  padding-bottom: var(--large);
+  padding-top: calc(var(--spacing) * 4);
+  padding-bottom: calc(var(--spacing) * 4);
   background-color: var(--white);
   text-align: center;
 }
@@ -20,5 +20,5 @@
 }
 
 .column-item {
-  padding: var(--large);
+  padding: calc(var(--spacing) * 4);
 }
