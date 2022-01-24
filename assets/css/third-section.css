@@ -2,6 +2,7 @@
   background-color: var(--white);
   padding-top: calc(var(--spacing) * 4);
   text-align: center;
+  font-weight: var(--bold-font);
 }
 
 .third-section-text {
