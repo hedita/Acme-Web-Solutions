@@ -4,13 +4,13 @@
 
 .first-section-title {
   text-align: center;
-  padding-top: var(--large);
+  padding-top: calc(var(--spacing) * 4);
   font-weight: var(--bold-font);
 }
 
 .first-section-container {
-  padding-top: var(--large);
-  padding-bottom: var(--large);
+  padding-top: calc(var(--spacing) * 4);
+  padding-bottom: calc(var(--spacing) * 4);
   display: grid;
   justify-content: center;
 }
@@ -18,6 +18,6 @@
 /* Desktop */
 @media (min-width: 901px) {
   .first-section-item {
-    padding-left: var(--large);
+    padding-left: calc(var(--spacing) * 4);
   }
 }
