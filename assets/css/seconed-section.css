@@ -1,0 +1,25 @@
+.seconed-section {
+  background-color: var(--primary-color);
+}
+
+.seconed-section-title {
+  padding-top: var(--large);
+  background-color: var(--first-light-background);
+  text-align: center;
+}
+
+.seconed-section-text {
+  padding-top: var(--large);
+  padding-bottom: var(--large);
+  background-color: var(--first-light-background);
+  text-align: center;
+}
+
+.column-container {
+  background-color: var(--primary-color);
+}
+
+.column-item {
+  /* background-color: var(--first-light-background);*/
+  padding-left: var(--large);
+}
