@@ -20,6 +20,5 @@
 }
 
 .column-item {
-  /* background-color: var(--first-light-background);*/
-  padding-left: var(--large);
+  padding: var(--large);
 }
