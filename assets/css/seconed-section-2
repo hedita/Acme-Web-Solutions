@@ -1,0 +1,24 @@
+.seconed-section {
+  background-color: var(--primary-color);
+}
+
+.seconed-section-title {
+  padding-top: calc(var(--spacing) * 4);
+  background-color: var(--white);
+  text-align: center;
+}
+
+.seconed-section-text {
+  padding-top: calc(var(--spacing) * 4);
+  padding-bottom: calc(var(--spacing) * 4);
+  background-color: var(--white);
+  text-align: center;
+}
+
+.column-container {
+  background-color: var(--primary-color);
+}
+
+.column-item {
+  padding: calc(var(--spacing) * 4);
+}
