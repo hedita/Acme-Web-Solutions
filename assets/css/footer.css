@@ -1,5 +1,5 @@
 .footer-text {
-  background-color: var(--primary-color);
+  background-color: black;
   padding-top: calc(var(--spacing) * 2);
   padding-bottom: calc(var(--spacing) * 2);
   padding-right: calc(var(--spacing) * 2);
