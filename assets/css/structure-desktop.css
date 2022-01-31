@@ -10,12 +10,12 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .fourth-section {
+  .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .footer-container {
+  .fourth-fifth-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
