@@ -1,19 +1,20 @@
 .site-header {
   background: url("../img/header.jpg");
   height: 200px;
+  backdrop-filter: blur(5px);
 }
 
 .title-header {
   color: var(--white);
   text-align: center;
-  padding-top: 32px;
+  padding-top: calc(var(--spacing) * 4);
   font-weight: var(--bold-font);
 }
 
 .text-header {
   color: var(--white);
   text-align: center;
-  padding: 16px;
+  padding: calc(var(--spacing) * 2);
 }
 
 .button-container {
@@ -24,5 +25,5 @@
 .button-header {
   background-color: var(--primary-color);
   color: var(--white);
-  padding: 8px 16px;
+  padding: calc(var(--spacing)) calc(var(--spacing) * 2);
 }
