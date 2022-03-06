@@ -3,7 +3,7 @@
   padding-top: calc(var(--spacing) * 4);
   text-align: center;
   font-weight: var(--bold-font);
-  color: var(--white);
+  color: var(--black);
 }
 
 .fourth-section-text {
@@ -13,5 +13,6 @@
   padding-right: calc(var(--spacing) * 4);
   padding-left: calc(var(--spacing) * 4);
   text-align: center;
-  color: var(--white);
+  color: var(--black);
+  font-weight: var(--bold-font);
 }
