@@ -25,7 +25,6 @@
           <button
             aria-label="jump to seconed section"
             tabindex="0"
-            role="button"
             class="button-header"
           >
             <a href="#jump-seconed-section">READ MORE</a>.
@@ -148,13 +147,13 @@
       var main = document.querySelector(".main");
       var currentlyLightTheme = window.matchMedia("prefers-color-schene: light");
       function toggle() {
-       if (currentlyLightTheme){
-       main.className = "overrideLight";
-       currentlyLightTheme = false;
+        if (currentlyLightTheme){
+          main.className = "overrideLight";
+          currentlyLightTheme = false;
     }
-      else {
-       main.className = "overrideDark";
-       currentlyLightTheme = true;
+        else {
+          main.className = "overrideDark";
+          currentlyLightTheme = true;
     }
   }
     </script>
