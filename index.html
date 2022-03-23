@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acme Web Sulutions</title>
   </head>
-  <body class="main">
+  <body>
     <header class="site-header">
       <div class="site-wrapper">
         <h1 class="title-header">Welcome to Acme Web Sulutions</h1>
@@ -33,7 +33,7 @@
       </div>
     </header>
     <label>Enable Dark Mode </label>
-    <input onclick="toggle()" id="input" type="checkbox" />
+    <input onclick="myFunction()" id="input" type="checkbox" />
     <section class="first-section">
       <div class="site-wrapper">
         <h2 class="first-section-title">Web & Application Development</h2>
@@ -145,18 +145,9 @@
       </div>
     </footer>
     <script>
-      var main = document.querySelector(".main");
-      var currentlyLightTheme = window.matchMedia(
-        "prefers-color-schene: light"
-      );
-      function toggle() {
-        if (currentlyLightTheme) {
-          main.className = "overrideLight";
-          currentlyLightTheme = false;
-        } else {
-          main.className = "overrideDark";
-          currentlyLightTheme = true;
-        }
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
       }
     </script>
   </body>
