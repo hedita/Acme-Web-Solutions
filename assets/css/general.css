@@ -12,3 +12,20 @@ body {
   width: 100%;
   height: auto;
 }
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

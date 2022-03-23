@@ -22,12 +22,18 @@
           consectetur, adipisci velit...
         </div>
         <div class="button-container">
-          <button id="anchor-third-section" class="button-header">
-            Read more
+          <button
+            aria-label="jump to seconed section"
+            tabindex="0"
+            class="button-header"
+          >
+            <a href="#jump-seconed-section">READ MORE</a>.
           </button>
         </div>
       </div>
     </header>
+    <label>Enable Dark Mode </label>
+    <input onclick="myFunction()" id="input" type="checkbox" />
     <section class="first-section">
       <div class="site-wrapper">
         <h2 class="first-section-title">Web & Application Development</h2>
@@ -49,10 +55,10 @@
         </div>
       </div>
     </section>
-    <section class="second-section">
+    <section id="jump-seconed-section" class="second-section">
       <ul class="column-container">
         <li class="column-item">
-          <img class="responsive" src="./assets/img/1.jpg" />
+          <img class="responsive" src="./assets/img/1.jpg" alt="laptop" />
           <h2 class="seconed-section-title">
             It has survived not only five centuries.
           </h2>
@@ -64,7 +70,7 @@
           </p>
         </li>
         <li class="column-item">
-          <img class="responsive" src="./assets/img/2.jpg" />
+          <img class="responsive" src="./assets/img/2.jpg" alt="phone" />
           <h2 class="seconed-section-title">
             It has survived not only five centuries.
           </h2>
@@ -76,7 +82,7 @@
           </p>
         </li>
         <li class="column-item">
-          <img class="responsive" src="./assets/img/3.jpg" />
+          <img class="responsive" src="./assets/img/3.jpg" alt="laptop" />
           <h2 class="seconed-section-title">
             It has survived not only five centuries.
           </h2>
@@ -132,10 +138,18 @@
         </div>
       </section>
     </div>
+    <footer class="site-footer">
+
       <div class="footer-container">
         <p class="footer-text">It has survived</p>
         <p class="footer-text">It has survived not only five centuries.</p>
       </div>
     </footer>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
   </body>
 </html>
