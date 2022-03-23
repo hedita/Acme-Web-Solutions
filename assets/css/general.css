@@ -17,3 +17,27 @@ a {
   color: var(--white);
   text-decoration: none;
 }
+
+.overrideLight {
+  background: white;
+  color: black;
+}
+
+.overrideDark {
+  background: black;
+  color: white;
+}
+
+@media (prefers-color-schene: dark) {
+  .main {
+    background: black;
+    color: white;
+  }
+}
+
+@media (prefers-color-schene: light) {
+  .main {
+    background: white;
+    color: black;
+  }
+}

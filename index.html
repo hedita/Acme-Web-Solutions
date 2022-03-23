@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acme Web Sulutions</title>
   </head>
-  <body>
+  <body class="main">
     <header class="site-header">
       <div class="site-wrapper">
         <h1 class="title-header">Welcome to Acme Web Sulutions</h1>
@@ -22,12 +22,18 @@
           consectetur, adipisci velit...
         </div>
         <div class="button-container">
-          <button class="button-header">
+          <button
+            aria-label="jump to seconed section"
+            tabindex="0"
+            class="button-header"
+          >
             <a href="#jump-seconed-section">READ MORE</a>.
           </button>
         </div>
       </div>
     </header>
+    <label>Enable Dark Mode </label>
+    <input onclick="toggle()" id="input" type="checkbox" />
     <section class="first-section">
       <div class="site-wrapper">
         <h2 class="first-section-title">Web & Application Development</h2>
@@ -52,7 +58,7 @@
     <section id="jump-seconed-section" class="second-section">
       <ul class="column-container">
         <li class="column-item">
-          <img class="responsive" src="./assets/img/1.jpg" />
+          <img class="responsive" src="./assets/img/1.jpg" alt="laptop" />
           <h2 class="seconed-section-title">
             It has survived not only five centuries.
           </h2>
@@ -64,7 +70,7 @@
           </p>
         </li>
         <li class="column-item">
-          <img class="responsive" src="./assets/img/2.jpg" />
+          <img class="responsive" src="./assets/img/2.jpg" alt="phone" />
           <h2 class="seconed-section-title">
             It has survived not only five centuries.
           </h2>
@@ -76,7 +82,7 @@
           </p>
         </li>
         <li class="column-item">
-          <img class="responsive" src="./assets/img/3.jpg" />
+          <img class="responsive" src="./assets/img/3.jpg" alt="laptop" />
           <h2 class="seconed-section-title">
             It has survived not only five centuries.
           </h2>
@@ -138,5 +144,20 @@
         <p class="footer-text">It has survived not only five centuries.</p>
       </div>
     </footer>
+    <script>
+      var main = document.querySelector(".main");
+      var currentlyLightTheme = window.matchMedia(
+        "prefers-color-schene: light"
+      );
+      function toggle() {
+        if (currentlyLightTheme) {
+          main.className = "overrideLight";
+          currentlyLightTheme = false;
+        } else {
+          main.className = "overrideDark";
+          currentlyLightTheme = true;
+        }
+      }
+    </script>
   </body>
 </html>
