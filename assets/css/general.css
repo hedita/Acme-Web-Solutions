@@ -18,26 +18,14 @@ a {
   text-decoration: none;
 }
 
-.overrideLight {
-  background: white;
+}
+
+body {
+  background-color: white;
   color: black;
 }
 
-.overrideDark {
-  background: black;
+.dark-mode {
+  background-color: black;
   color: white;
-}
-
-@media (prefers-color-schene: dark) {
-  .main {
-    background: black;
-    color: white;
-  }
-}
-
-@media (prefers-color-schene: light) {
-  .main {
-    background: white;
-    color: black;
-  }
 }
